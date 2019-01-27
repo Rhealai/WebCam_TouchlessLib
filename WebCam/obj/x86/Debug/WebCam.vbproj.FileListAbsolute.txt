@@ -1,0 +1,48 @@
+C:\Users\Administrator\AppData\Local\Temporary Projects\WebCam\bin\Debug\WebCam.exe
+C:\Users\Administrator\AppData\Local\Temporary Projects\WebCam\bin\Debug\WebCam.pdb
+C:\Users\Administrator\AppData\Local\Temporary Projects\WebCam\bin\Debug\WebCam.xml
+C:\Users\Administrator\AppData\Local\Temporary Projects\WebCam\bin\Debug\TouchlessLib.dll
+C:\Users\Administrator\AppData\Local\Temporary Projects\WebCam\bin\Debug\WebCamLib.dll
+C:\Users\Administrator\AppData\Local\Temporary Projects\WebCam\obj\x86\Debug\WebCam.vbprojResolveAssemblyReference.cache
+C:\Users\Administrator\AppData\Local\Temporary Projects\WebCam\obj\x86\Debug\WebCam.Form1.resources
+C:\Users\Administrator\AppData\Local\Temporary Projects\WebCam\obj\x86\Debug\WebCam.Resources.resources
+C:\Users\Administrator\AppData\Local\Temporary Projects\WebCam\obj\x86\Debug\WebCam.vbproj.GenerateResource.Cache
+C:\Users\Administrator\AppData\Local\Temporary Projects\WebCam\obj\x86\Debug\WebCam.exe
+C:\Users\Administrator\AppData\Local\Temporary Projects\WebCam\obj\x86\Debug\WebCam.xml
+C:\Users\Administrator\AppData\Local\Temporary Projects\WebCam\obj\x86\Debug\WebCam.pdb
+C:\Users\Administrator\Desktop\WebCam\WebCam\obj\x86\Debug\WebCam.exe
+C:\Users\Administrator\Desktop\WebCam\WebCam\obj\x86\Debug\WebCam.xml
+C:\Users\Administrator\Desktop\WebCam\WebCam\obj\x86\Debug\WebCam.pdb
+C:\Users\Administrator\Desktop\WebCam\WebCam\bin\Debug\WebCam.exe.config
+C:\Users\Administrator\Desktop\WebCam\WebCam\bin\Debug\WebCam.exe
+C:\Users\Administrator\Desktop\WebCam\WebCam\bin\Debug\WebCam.pdb
+C:\Users\Administrator\Desktop\WebCam\WebCam\bin\Debug\WebCam.xml
+C:\Users\Administrator\Desktop\WebCam\WebCam\bin\Debug\TouchlessLib.dll
+C:\Users\Administrator\Desktop\WebCam\WebCam\bin\Debug\WebCamLib.dll
+C:\Users\Administrator\Desktop\WebCam\WebCam\obj\x86\Debug\WebCam.vbprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\WebCam\WebCam\obj\x86\Debug\WebCam.Form1.resources
+C:\Users\Administrator\Desktop\WebCam\WebCam\obj\x86\Debug\WebCam.Resources.resources
+C:\Users\Administrator\Desktop\WebCam\WebCam\obj\x86\Debug\WebCam.vbproj.GenerateResource.Cache
+C:\Documents and Settings\RioSim\My Documents\WebCam\WebCam\bin\Debug\WebCam.exe.config
+C:\Documents and Settings\RioSim\My Documents\WebCam\WebCam\obj\x86\Debug\WebCam.exe
+C:\Documents and Settings\RioSim\My Documents\WebCam\WebCam\obj\x86\Debug\WebCam.xml
+C:\Documents and Settings\RioSim\My Documents\WebCam\WebCam\obj\x86\Debug\WebCam.pdb
+C:\Documents and Settings\RioSim\My Documents\WebCam\WebCam\bin\Debug\WebCam.exe
+C:\Documents and Settings\RioSim\My Documents\WebCam\WebCam\bin\Debug\WebCam.pdb
+C:\Documents and Settings\RioSim\My Documents\WebCam\WebCam\bin\Debug\WebCam.xml
+C:\Documents and Settings\RioSim\My Documents\WebCam\WebCam\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\RioSim\My Documents\WebCam\WebCam\obj\x86\Debug\WebCam.Form1.resources
+C:\Documents and Settings\RioSim\My Documents\WebCam\WebCam\obj\x86\Debug\WebCam.Resources.resources
+C:\Documents and Settings\RioSim\My Documents\WebCam\WebCam\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Documents and Settings\RioSim\My Documents\WebCam\WebCam\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+S:\temp_download\C#\WebCam\WebCam\bin\Debug\WebCam.exe.config
+S:\temp_download\C#\WebCam\WebCam\bin\Debug\WebCam.exe
+S:\temp_download\C#\WebCam\WebCam\bin\Debug\WebCam.pdb
+S:\temp_download\C#\WebCam\WebCam\bin\Debug\WebCam.xml
+S:\temp_download\C#\WebCam\WebCam\obj\x86\Debug\WebCam.vbprojResolveAssemblyReference.cache
+S:\temp_download\C#\WebCam\WebCam\obj\x86\Debug\WebCam.Form1.resources
+S:\temp_download\C#\WebCam\WebCam\obj\x86\Debug\WebCam.Resources.resources
+S:\temp_download\C#\WebCam\WebCam\obj\x86\Debug\WebCam.vbproj.GenerateResource.Cache
+S:\temp_download\C#\WebCam\WebCam\obj\x86\Debug\WebCam.exe
+S:\temp_download\C#\WebCam\WebCam\obj\x86\Debug\WebCam.xml
+S:\temp_download\C#\WebCam\WebCam\obj\x86\Debug\WebCam.pdb

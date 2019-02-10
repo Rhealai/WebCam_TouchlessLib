@@ -46,3 +46,15 @@ S:\temp_download\C#\WebCam\WebCam\obj\x86\Debug\WebCam.vbproj.GenerateResource.C
 S:\temp_download\C#\WebCam\WebCam\obj\x86\Debug\WebCam.exe
 S:\temp_download\C#\WebCam\WebCam\obj\x86\Debug\WebCam.xml
 S:\temp_download\C#\WebCam\WebCam\obj\x86\Debug\WebCam.pdb
+C:\Documents and Settings\RioSim\桌面\WebCam_TouchlessLib\WebCam\bin\Debug\WebCam.exe.config
+C:\Documents and Settings\RioSim\桌面\WebCam_TouchlessLib\WebCam\obj\x86\Debug\WebCam.exe
+C:\Documents and Settings\RioSim\桌面\WebCam_TouchlessLib\WebCam\obj\x86\Debug\WebCam.xml
+C:\Documents and Settings\RioSim\桌面\WebCam_TouchlessLib\WebCam\obj\x86\Debug\WebCam.pdb
+C:\Documents and Settings\RioSim\桌面\WebCam_TouchlessLib\WebCam\bin\Debug\WebCam.exe
+C:\Documents and Settings\RioSim\桌面\WebCam_TouchlessLib\WebCam\bin\Debug\WebCam.pdb
+C:\Documents and Settings\RioSim\桌面\WebCam_TouchlessLib\WebCam\bin\Debug\WebCam.xml
+C:\Documents and Settings\RioSim\桌面\WebCam_TouchlessLib\WebCam\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\RioSim\桌面\WebCam_TouchlessLib\WebCam\obj\x86\Debug\WebCam.Form1.resources
+C:\Documents and Settings\RioSim\桌面\WebCam_TouchlessLib\WebCam\obj\x86\Debug\WebCam.Resources.resources
+C:\Documents and Settings\RioSim\桌面\WebCam_TouchlessLib\WebCam\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Documents and Settings\RioSim\桌面\WebCam_TouchlessLib\WebCam\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog

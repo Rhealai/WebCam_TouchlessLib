@@ -14,46 +14,38 @@ Public Class Form1
     End Sub
 
     Private Sub Form1_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+
+        Me.Size = New System.Drawing.Size(700, 600)
+
         Touchless.CurrentCamera = camera1
-        'Touchless.CurrentCamera.CaptureHeight = 480
-        'Touchless.CurrentCamera.CaptureWidth = 640
         camera1.FpsLimit = 25
         camera1.CaptureHeight = 480
         camera1.CaptureWidth = 640
         camera1.RotateFlip = RotateFlipType.RotateNoneFlipXY
+        'camera1.RotateFlip = RotateFlipType.Rotate180FlipXY
+
+
 
     End Sub
 
     Private Sub Timer1_Tick(ByVal sender As Object, ByVal e As EventArgs) Handles Timer1.Tick
-        PictureBox1.Image = camera1.GetCurrentImage
+        'camera1.RotateFlip = ComboBox1.SelectedIndex
 
-        'PictureBox1.Image = Touchless.CurrentCamera.GetCurrentImage()
+        Dim bmpCamera As Bitmap = New Bitmap(camera1.GetCurrentImage())
 
-        Dim bt As Bitmap = Touchless.CurrentCamera.GetCurrentImage()
+        Dim btHeight As Integer = bmpCamera.Height
+        Dim btWidth As Integer = bmpCamera.Width
 
-        Dim g As Graphics = PictureBox1.CreateGraphics()
-
-        'Dim t As Single = 0.6F
-
-        'Dim ptsArray()() As Single = {
-        'New Single() {1, 0, 0, 0, 0},
-        'New Single() {0, 1, 0, 0, 0},
-        'New Single() {0, 0, 1, 0, 0},
-        'New Single() {0, 0, 0, t, 0},
-        'New Single() {0, 0, 0, 0, 1}
-        '}
-        'Dim clrMatrix As New ColorMatrix(ptsArray)
-        'Dim imgAttributes As New ImageAttributes()
-        'imgAttributes.SetColorMatrix(clrMatrix,
-        '                             ColorMatrixFlag.Default,
-        '                             ColorAdjustType.Bitmap)
+        For x As Integer = 0 To btWidth - 1
+            bmpCamera.SetPixel(x, btHeight / 2, Color.FromArgb(0, 0, 0))
+        Next
 
 
-        'g.DrawImage(bt, New Rectangle(0, 0, bt.Size.Width, bt.Size.Height),
-        '           0, 0, bt.Size.Width, bt.Size.Height, GraphicsUnit.Pixel, imgAttributes)
+        For y As Integer = 0 To btHeight - 1
+            bmpCamera.SetPixel(btWidth / 2, y, Color.FromArgb(0, 0, 0))
+        Next
 
-        g.FillRectangle(Brushes.Red, 30, 40, 10, 10)
-        g.DrawLine(Pens.Red, 60, 60, 80, 80)
+        PictureBox1.Image = bmpCamera
 
 
     End Sub
@@ -63,7 +55,7 @@ Public Class Form1
         'MsgBox(camera1.ToString())
     End Sub
 
-    Private Sub Button3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button3.Click
+    Private Sub Button3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         'MsgBox(Me.Touchless.Cameras.Count)
         camera1.CaptureHeight = 1536
         camera1.CaptureWidth = 2048
@@ -91,22 +83,44 @@ Public Class Form1
 
     End Sub
 
-    Private Sub Button5_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button5.Click
+    Private Sub Button5_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         camera1.CaptureHeight = 768
         camera1.CaptureWidth = 1024
         Me.Size = New System.Drawing.Size(camera1.CaptureWidth + 60, camera1.CaptureHeight + 120)
     End Sub
 
-    Private Sub Button6_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button6.Click
+    Private Sub Button6_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         camera1.CaptureHeight = 480
         camera1.CaptureWidth = 640
         Me.Size = New System.Drawing.Size(camera1.CaptureWidth + 60, camera1.CaptureHeight + 120)
     End Sub
 
     Private Sub Button7_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button7.Click
-        Dim g As Graphics = PictureBox1.CreateGraphics()
-        g.FillRectangle(Brushes.Red, 30, 40, 1, 1)
-        g.DrawLine(Pens.Red, 60, 60, 80, 80)
+        'PictureBox1.Image.Save("tmp2.jpg", ImageFormat.Jpeg)
+    End Sub
+
+    Private Sub PictureBox1_Paint(ByVal sender As System.Object, ByVal e As System.Windows.Forms.PaintEventArgs) Handles PictureBox1.Paint
+        '
+    End Sub
+
+    Private Sub ComboBox1_SelectedIndexChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ComboBox1.SelectedIndexChanged
+        If (ComboBox1.SelectedIndex = 0) Then
+            camera1.CaptureHeight = 480
+            camera1.CaptureWidth = 640
+            Me.Size = New System.Drawing.Size(camera1.CaptureWidth + 60, camera1.CaptureHeight + 120)
+        End If
+
+        If (ComboBox1.SelectedIndex = 1) Then
+            camera1.CaptureHeight = 768
+            camera1.CaptureWidth = 1024
+            Me.Size = New System.Drawing.Size(camera1.CaptureWidth + 60, camera1.CaptureHeight + 120)
+        End If
+
+    End Sub
+
+    Private Sub ComboBox2_SelectedIndexChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ComboBox2.SelectedIndexChanged
+
+        Touchless.CurrentCamera.RotateFlip = ComboBox2.SelectedIndex
 
     End Sub
 End Class
